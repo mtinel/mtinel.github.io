@@ -1,0 +1,28 @@
+{% if site.moocs %}
+	{% for mooc in site.moocs %}
+		<div id="CoursesBubble" class="rounded_panel txt_lightgrey">
+			<div class="top-rounded-panel grey-bg">
+				<h1>{{mooc.plateform}} (<a target='_blank' href="{{mooc.profileurl}}">view profile</a>)</h1>
+			</div>
+			<div class="content-rounded-panel">
+				<div id="coursesPlateformPanel">
+					{% for course in mooc.courses %}
+					<div class="row">
+						{% if course.optionalimage %}
+							<div class="col-sm-5">
+								<img src="{{course.optionalimage}}">
+							</div>
+						{% endif %}
+						<div class="col-sm-6">
+							<a target='_blank' href="{{course.link}}">
+								{{course.title}}
+							</a><br/>
+							<i>{{course.date}}</i>
+						</div>
+					</div><br/>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+{% endif %}
