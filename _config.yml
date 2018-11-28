@@ -29,6 +29,7 @@ skills:
  - JPA
  - SQL
  - REST
+ - Docker
  - Tech Architecture
                                     
 
@@ -41,36 +42,27 @@ roles:
    start: 2017
    end: Ongoing
    employer: WakeonWeb
-   description: WakeOnWeb is a service company in the digital sector, specializing in the design and development of specific WEB applications for innovative companies.
+   description: WakeOnWeb is a service company in the digital sector, specializing in the design and development of specific WEB applications for innovative companies. I am responsible for developing the company's Big Data and Machine Learning skills.
  - title: Software Developper
    start: 2014
    end: 2017
    employer: Net Informatique Services
-   description: Created in 1995, NIS has established itself as a leader in the indirect distribution of digital security products. It extend it expertise to healthcare product.
+   description: Created in 1995, NIS has established itself as a leader in the indirect distribution of digital security products. During its growth, the company opened up to the IOT and french health care (Ingenico hardware reader, and its own software reader) market. In this context, I have developped an application to manage a Cryptographic USB key from Gemalto (IDBridge K3000), allowing the USB key to be securely (with a HSM) personalized, and remotely updated. I also had to support, a cloud / on-prem authentication solution (Safenet Authentication Service), and health care solutions.
 
 #Education is required
 education:
  - level: Bachelor (EQF L6 / French NQF L2)
    date: 2013
    subject: Concepteur Développeur Informatique
-   school: AFPA de Saint-Étienne-du-Rouvray (FR)
+   school: AFPA of Saint-Étienne-du-Rouvray (FR)
  - level: Undergraduate technician certificate (EQF L5 / French NQF L3)
    date: 2000
    subject: Informatique Industrielle
-   school: Lycée Modeste Leroy d'Evreux (FR)
+   school: Lycée Modeste Leroy of Evreux (FR)
  - level: Technological baccalaureate (EQF L4 / French NQF L4)
    date: 1998
    subject: Sciences et technologies industrielles génie Électrotechnique
-   school: Lycée Pablo Néruda de Dieppe
-
-#This section is optional (as is the image link below)
-coursera:
-   profileurl: https://www.coursera.org/user/610a4f6a81defd283eaa9307263410f8
-   courses:
-    - title: Functional Programming Principles in Scala
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: May, 2018
+   school: Lycée Pablo Néruda of Dieppe
 
 #This section is optional (as is the image link below)
 moocs:
@@ -86,7 +78,7 @@ moocs:
    courses:
     - title: Initiez-vous au machine learning
       link: https://openclassrooms.com/fr/courses/initiez-vous-au-machine-learning/
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+      optionalimage: https://udemy-images.udemy.com/course/240x135/1382702_a351.jpg
       date: September, 2018
 
 #List of interesting Github repo/projects to include - optional
@@ -102,6 +94,6 @@ moocs:
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I have recently worked with Spring 4, Spring Boot, JPA (Hibernate) in addition to others.  In my current role Scala is the primary language used - and I am familiar with many of the languages features and quirks. <br/><br/>
+   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I have recently worked with Spring 4, Spring Boot, JPA (Hibernate), JCA / JCE in addition to others.  In my current role Scala is the primary language used - and I am familiar with many of the languages features and quirks. <br/><br/>
    <strong>Web Development</strong>: My server side web development experience has largely been based on JSF with PrimeFaces framework (although current role uses Spring MVC). I have also worked with some client side technology, having used jQuery.<br/><br/>
    <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, sbt, Sonar and Jenkins. I have experience with an array of testing tools and technologies.<br/><br/>
