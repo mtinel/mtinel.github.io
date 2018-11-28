@@ -1,7 +1,8 @@
 # Site settings
-title: Rob Hinds
-twitter_username: rob_hinds
-name: Rob Hinds
+title: Maxime TINEL
+twitter_username: MaximeTinel
+name: Maxime TINEL
+location: La Ciotat, FR
 
 # Build settings
 markdown: kramdown
@@ -9,102 +10,98 @@ markdown: kramdown
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
- - title: Blog
-   url: http://automateddeveloper.blogspot.com/
- - title: GitHub
-   url: https://github.com/robhinds
- - title: StackOverflow
-   url: http://stackoverflow.com/users/258813/rhinds
- - title: DZone
-   url: https://dzone.com/users/899489/rhinds.html
  - title: LinkedIn
-   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
+   url: http://fr.linkedin.com/in/maximetinel
+ - title: Viadeo
+   url: http://www.viadeo.com/fr/profile/maxime.tinel
 
 #Any buzzword skills you want to include
 skills:
- - Groovy
- - Spring MVC
- - Spring Boot
- - Gradle
+ - Scala
+ - sbt
+ - Akka
+ - Apache Spark
+ - Machine Learning
  - Java
+ - Maven
+ - Spring Boot
+ - JSF
  - JPA
  - SQL
  - REST
  - Tech Architecture
+                                    
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default?alt=rss
+#blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default?alt=rss
 
 #Work experience is required
 roles:
- - title: Senior Engineer
-   start: 2016
+ - title: Software Developper
+   start: 2017
    end: Ongoing
-   employer: Emerald Street Ventures
-   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
- - title: Senior Engineer
-   start: 2012
-   end: 2016
-   employer: Covestor
-   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> I am a senior engineer working closely with the CTO, working across the full-stack, I am involved in all aspects of the technology including the website and back-end services.
- - title: Associate Manager
-   start: 2005
-   end: 2012
-   employer: Accenture
-   description: A range of functional and technical roles, primarily working on client sites in Financial Services.
+   employer: WakeonWeb
+   description: WakeOnWeb is a service company in the digital sector, specializing in the design and development of specific WEB applications for innovative companies.
+ - title: Software Developper
+   start: 2014
+   end: 2017
+   employer: Net Informatique Services
+   description: Created in 1995, NIS has established itself as a leader in the indirect distribution of digital security products. It extend it expertise to healthcare product.
 
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.)
-   date: 2003
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+ - level: Bachelor (EQF L6 / French NQF L2)
+   date: 2013
+   subject: Concepteur Développeur Informatique
+   school: AFPA de Saint-Étienne-du-Rouvray (FR)
+ - level: Undergraduate technician certificate (EQF L5 / French NQF L3)
+   date: 2000
+   subject: Informatique Industrielle
+   school: Lycée Modeste Leroy d'Evreux (FR)
+ - level: Technological baccalaureate (EQF L4 / French NQF L4)
+   date: 1998
+   subject: Sciences et technologies industrielles génie Électrotechnique
+   school: Lycée Pablo Néruda de Dieppe
 
 #This section is optional (as is the image link below)
 coursera:
-   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
+   profileurl: https://www.coursera.org/user/610a4f6a81defd283eaa9307263410f8
    courses:
     - title: Functional Programming Principles in Scala
       link: https://www.coursera.org/course/progfun
       optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: September 16, 2013
-    - title: Algorithms Design and Analysis, Part 1
+      date: May, 2018
+
+#This section is optional (as is the image link below)
+moocs:
+ - plateform: Coursera
+   profileurl: https://www.coursera.org/user/610a4f6a81defd283eaa9307263410f8
+   courses:
+    - title: Functional Programming Principles in Scala
       link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
-      date: April 28, 2014
+      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+      date: May, 2018
+ - plateform: OpenClassrooms
+   profileurl: https://openclassrooms.com/fr/membres/maxime-tinel
+   courses:
+    - title: Initiez-vous au machine learning
+      link: https://openclassrooms.com/fr/courses/initiez-vous-au-machine-learning/
+      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+      date: September, 2018
 
 #List of interesting Github repo/projects to include - optional
-github:
- - robhinds/learning-neural-networks
- - robhinds/akka-http-rest-api-sample
- - robhinds/twitter-sentiment-analysis
- - robhinds/spring-reactor-twitter
- - robhinds/microservices
- - robhinds/spring-social-geeklist
- - robhinds/spring-social-stackoverflow
- - robhinds/food2vec
- - robhinds/SpringMongoIntegrationExample
- - robhinds/SpringNeo4JWebApp
- - robhinds/AndroidChuckQuiz
- - robhinds/AndroidRssReader
+#github:
 
 #Stackoverflow flair is optional
-stackoverflow:
-   profileurl: http://stackoverflow.com/users/258813/rhinds
-   flairimageurl: http://stackoverflow.com/users/flair/258813.png
+#stackoverflow:
+#   profileurl: http://stackoverflow.com/users/4248608/maxoute
+#   flairimageurl: http://stackoverflow.com/users/flair/4248608.png
 
 #Mobile apps section is optional
-apps:
- - name: Chuck the Quiz
-   platform: Android
-   url: https://play.google.com/store/apps/details?id=com.tmm.android.chuck&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS50bW0uYW5kcm9pZC5jaHVjayJd
-   description: A basic early Android app (open sourced)
+#apps:
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I have recently worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in addition to others.  In my current role Groovy is the primary language used - and I am familiar with many of the languages features and quirks (including writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>). <br/><br/>
-   <strong>Web Development</strong>: My server side web development experience has largely been based on the Spring MVC framework (although current role uses ColdFusion for server side web stack). I have also worked with some client side technology, having used jQuery, Bootstrap, LESS, SASS and have also experimented with other interesting technologies such as Backbone/Underscore/Require.<br/><br/>
-   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, Gradle, Sonar and Jenkins. I have experience with an array of testing tools and technologies.<br/><br/>
-   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, a variety of social APIs (Twitter etc) and cloud platforms such as CloudFoundry/OpenShift/AppFog/Parse. <br/><br/>
-   As part of Nerdability, I created, and am now primary contributor to, two Spring projects - <a target='_blank' href="https://github.com/robhinds/spring-social-geeklist">Spring-Social-Geeklist</a> and <a target='_blank' href="https://github.com/nerdability/spring-social-khan-academy">Spring-Social-Khan-Academy</a>, which provide core integration with those third-party APIs on top of the Spring Social framework. They are both listed as community projects: <a target='_blank' href="http://projects.spring.io/spring-social/">http://projects.spring.io/spring-social/</a>. <br/><br/>
-   I write a blog covering technical and opinion articles that can be found here: <a target='_blank' href="http://automateddeveloper.blogspot.com/">automateddeveloper.blogspot.com</a> (I am also a <a target='_blank' href="https://dzone.com/users/899489/rhinds.html">DZone MVB</a>)
+   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I have recently worked with Spring 4, Spring Boot, JPA (Hibernate) in addition to others.  In my current role Scala is the primary language used - and I am familiar with many of the languages features and quirks. <br/><br/>
+   <strong>Web Development</strong>: My server side web development experience has largely been based on JSF with PrimeFaces framework (although current role uses Spring MVC). I have also worked with some client side technology, having used jQuery.<br/><br/>
+   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, sbt, Sonar and Jenkins. I have experience with an array of testing tools and technologies.<br/><br/>
